@@ -24,3 +24,8 @@ elif idade == IDADE_ESPECIAL:
     print("Pode fazer as aulas téoricas mas não pode fazer as aulas praticas! ")
 else:
     print("Ainda não pode tirar a CMH. ")
+
+    #ANALOGIA
+#Se você tem a idade necessária, você entra na boate e dança (pode tirar a CNH).
+#Se você tem uma idade especial, você entra, mas só pode assistir (pode fazer aulas teóricas).
+#Se você for muito jovem, você nem entra (não pode tirar a CNH).
