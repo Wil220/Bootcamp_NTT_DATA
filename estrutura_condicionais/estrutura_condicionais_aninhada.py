@@ -1,5 +1,5 @@
 CONTA_NORMAL = False
-CONTA_UNIVERSITARIA = True
+CONTA_UNIVERSITARIA = False
 
 SALDO = 2000
 SAQUE = 1500
@@ -17,4 +17,5 @@ elif CONTA_UNIVERSITARIA:
         print("Saque realizado com sucesso! ")
     else:
         print("Saldo insuficiente")
-
+else:
+    print("Sistema não reconheceu seu tipo de conta, entre em contato cm seu gerente.")
