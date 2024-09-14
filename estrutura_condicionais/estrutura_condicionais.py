@@ -3,7 +3,6 @@ saque = float(input("informe o valor do saque "))
 
 if saldo >= saque:
     print("Realizando saque! ")
-
-if saldo <= saque:
+else:
     print("Saldo insuficiente! ")
 
