@@ -1,4 +1,4 @@
-saldo = 2000
+saldo = 2000.0
 saque = float(input("informe o valor do saque "))
 
 if saldo >= saque:
