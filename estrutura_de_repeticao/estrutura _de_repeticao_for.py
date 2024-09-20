@@ -8,6 +8,7 @@
 #print(a)
 
 # essa aplicação procura por alguma letra exemplo, se eu escrever python nas minhas vogais tem o O então eleaparece natela a letra O 
+#Exemplo utilizando um interavel
 texto = input("Informe um texto: ")
 VOGAIS = "AEIOU"
 
@@ -17,7 +18,6 @@ for letra in texto:
 
 print() #Adiciona uma quebra delinha 
 
-#Taubuada
-
+#Exemplo utilizando a função built-in range
 for numero in range(0, 51, 5):
-    print(numero) 
+    print(numero, end="") 
