@@ -1,7 +1,7 @@
 while True:
     numero = int(input("Informe um número: "))
 
-    if numero == 10:
+    if numero == 1000:
         print("Número encontrado!")
         break
     
